@@ -129,8 +129,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
-  padding:24px 0;
   gap:40px;
+}
+
+.header-menu-item {
+  padding: 24px 0;
 }
 
 .header-address {
