@@ -61,7 +61,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .link {
@@ -91,10 +90,7 @@ body {
  /* Header */
 
  .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--border-color-primary);
-
  }
 
  .header-container {
@@ -104,7 +100,9 @@ body {
  }
 
 .header-menu-link {
+  display:block;
   color:var(--secondary-color-black);
+  padding: 24px 0;
 }
 
 .header-menu-link:hover {
@@ -118,8 +116,6 @@ body {
 .header-navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap:72px;
 }
 
 .header-menu-list {
@@ -130,10 +126,7 @@ body {
   letter-spacing: 0.02em;
   display: flex;
   gap:40px;
-}
-
-.header-menu-link {
-  padding: 24px 0;
+  margin-left: 76px;
 }
 
 .header-address {
@@ -164,15 +157,9 @@ body {
   text-align: center;
   max-width: 496px;
   flex-shrink: 0;
+  margin: 0 auto;
 }
 
-.container-hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 48px;
-}
 
 .service-order-button {
   color: var(--primary-color-white);
@@ -188,6 +175,8 @@ body {
   border-radius: 4px;
   border:none;
   cursor: pointer;
+  display:block;
+  margin: 48px auto 0;
 }
 
 .service-order-button:hover,
@@ -313,12 +302,8 @@ margin-bottom: 72px;
 }
 
 .team-list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: var(--primary-color-white);
   border-radius: 0px 0px 4px 4px;
-  background: var(--primary-color-white);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 3 * 24px) / 4)
 }
