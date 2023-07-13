@@ -109,6 +109,10 @@ body {
   color: var(--active-link-color);
 }
 
+.header-logo {
+  margin-right: 76px;
+}
+
 .header-logo-studio {
   color: var(--secondary-color-black);
 }
@@ -126,7 +130,6 @@ body {
   letter-spacing: 0.02em;
   display: flex;
   gap:40px;
-  margin-left: 76px;
 }
 
 .header-address {
